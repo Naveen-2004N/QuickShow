@@ -6,7 +6,7 @@ import BlurCircle from '../../components/BlurCircle';
 import { useAppContext } from '../../context/Appcontext';
 import toast from 'react-hot-toast';
 
-const Listbookings = () => {
+const ListBookings = () => {
   const { axios, getToken, user } = useAppContext();
   const currency = import.meta.env.VITE_CURRENCY;
   const [bookings, setBookings] = useState([]);
@@ -87,4 +87,4 @@ const Listbookings = () => {
   );
 };
 
-export default Listbookings;
+export default ListBookings;
