@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { MenuIcon, SearchIcon, TicketPlus, XIcon } from 'lucide-react'
 import { useClerk, UserButton, useUser } from '@clerk/clerk-react'
-import { useAppContext } from '../context/Appcontext'
+import { useAppContext } from '../context/AppContext'
 
 const Navbar = () => {
   const { favorites } = useAppContext();

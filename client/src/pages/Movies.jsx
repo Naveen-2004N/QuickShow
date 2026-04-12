@@ -1,7 +1,7 @@
 import BlurCircle from '../components/BlurCircle'
 import Loading from '../components/Loading';
 import MovieCard from '../components/MovieCard'
-import { useAppContext } from '../context/Appcontext';
+import { useAppContext } from '../context/AppContext';
 
 const Movies = () => {
   const {shows} = useAppContext();

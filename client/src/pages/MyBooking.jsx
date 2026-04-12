@@ -3,7 +3,7 @@ import BlurCircle from '../components/BlurCircle';
 import { StarIcon } from 'lucide-react';
 import time from '../lib/Time';
 import formatDateTime from '../lib/DateCalculate';
-import { useAppContext } from '../context/Appcontext';
+import { useAppContext } from '../context/AppContext';
 import toast from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 

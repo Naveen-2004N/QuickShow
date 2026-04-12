@@ -5,7 +5,7 @@ import BlurCircle from '../../components/BlurCircle';
 import { CheckIcon, DeleteIcon, StarIcon } from 'lucide-react';
 import thousandConvert from '../../lib/ThousandCalculate';
 import toast from 'react-hot-toast';
-import { useAppContext } from '../../context/Appcontext';
+import { useAppContext } from '../../context/AppContext';
 
 const Addshow = () => {
   const { axios, getToken, user } = useAppContext();

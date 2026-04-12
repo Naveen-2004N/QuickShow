@@ -11,7 +11,7 @@ import Title from '../../components/Title';
 import BlurCircle from '../../components/BlurCircle';
 import formatDateTime from '../../lib/DateCalculate';
 import { toast } from 'react-hot-toast';
-import { useAppContext } from '../../context/Appcontext';
+import { useAppContext } from '../../context/AppContext';
 
 const Dashboard = () => {
   const currency = import.meta.env.VITE_CURRENCY;

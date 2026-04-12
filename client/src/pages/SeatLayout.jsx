@@ -6,7 +6,7 @@ import { ArrowRight, ClockIcon } from 'lucide-react';
 import timeFormat from '../lib/TimeFormat';
 import BlurCircle from '../components/BlurCircle';
 import toast from 'react-hot-toast';
-import { useAppContext } from '../context/Appcontext';
+import { useAppContext } from '../context/AppContext';
 
 const SeatLayout = () => {
   const { axios, getToken, user } = useAppContext();

@@ -3,7 +3,7 @@ import AdminNavbar from '../../components/AdminNavbar'
 import Adminsidebar from '../../components/Adminsidebar'
 import { Outlet } from 'react-router-dom'
 import Loading from '../../components/Loading';
-import { useAppContext } from '../../context/Appcontext';
+import { useAppContext } from '../../context/AppContext';
 
 const Layout = () => {
   const {isAdmin,fetchisAdmin} = useAppContext();
