@@ -13,7 +13,7 @@ import Dashboard from './pages/admin/Dashboard'
 import Addshow from './pages/admin/Addshow'
 import Listshow from './pages/admin/Listshow'
 import Listbookings from './pages/admin/ListBookings'
-import { useAppContext } from './context/Appcontext'
+import { useAppContext } from './context/AppContext'
 import { SignIn } from '@clerk/clerk-react'
 import Loading from './components/Loading'
 
