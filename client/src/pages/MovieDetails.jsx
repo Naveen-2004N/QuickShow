@@ -9,7 +9,7 @@ import Loading from '../components/Loading';
 import toast from 'react-hot-toast';
 import { useAppContext } from '../context/Appcontext';
 
-const Moviedetails = () => {
+const MovieDetails = () => {
   const { shows, axios, getToken, user, fetchfavorites, favorites } = useAppContext();
   const { id } = useParams();
   const [show, setShow] = useState(null);
@@ -141,4 +141,4 @@ const Moviedetails = () => {
   )
 }
 
-export default Moviedetails;
+export default MovieDetails;
