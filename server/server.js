@@ -5,10 +5,10 @@ import mongoConnect from './config/database.js';
 import { clerkMiddleware } from '@clerk/express';
 import { serve } from "inngest/express";
 import { inngest, functions } from "./inngest/index.js"
-import showRouter from './Routes/showrouter.js';
-import bookingRouter from './Routes/bookingrouter.js';
-import adminRouter from './Routes/adminrouter.js';
-import userRouter from './Routes/userrouter.js';
+import showRouter from './routes/showrouter.js';
+import bookingRouter from './routes/bookingrouter.js';
+import adminRouter from './routes/adminrouter.js';
+import userRouter from './routes/userrouter.js';
 import { stripeWebhooks } from './Control/Stripewebhooks.js';
 
 const app = express();
